@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Compressor - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Compression Results</h1>
+        <p>Original Size: {{ original_size }} MB</p>
+        <p>Compressed Size: {{ compressed_size }} MB</p>
+        <p>Compression Ratio: {{ compression_ratio * 100 | round(2) }}%</p>
+        <a href="/uploads/{{ download_link }}" download>Download Compressed PDF</a>
+    </div>
+</body>
+</html>

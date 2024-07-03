@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input[type="file"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+select {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    appearance: none;
+}
+
+button {
+    background: #6a82fb;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a72db;
+}
+
+.result {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.16);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+.result a {
+    color: #6a82fb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
